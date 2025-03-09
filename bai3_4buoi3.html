@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<style>
+    .image-container {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 20px;
+    }
+    .image-container img {
+        width: 300px;
+        height: 200px;
+        object-fit: cover;
+        opacity: 50%;
+        transition: opacity 0.3s;
+    }
+    .image-container img:hover {
+        opacity: 100%;
+    }
+    .return {
+        text-align: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+</style>
+<body>
+    <div class="image-container">
+        <img src="https://elead.com.vn/wp-content/uploads/2020/04/hinh-anh-thac-nuoc-dep-14-1.jpg">
+        <img src="https://hpconnect.vn/wp-content/uploads/2020/02/nhung-hinh-anh-thien-nhien-dep-nhat-ban-1.jpeg">
+        <img src="https://tse1.mm.bing.net/th?id=OIP.l92l51bN5xpNM_N3ukTRGwHaFj&pid=Api&P=0&h=180">
+    </div>
+    <div class="return">
+        <a href="index.html">
+            <input type="button" value="Trở về menu chính" style="background-color: #292929; color: white; padding: 10px 20px; border: none; border-radius: 5px;">
+        </a>
+    </div>
+</body>
+</html>
